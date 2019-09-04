@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-auth.js"></script>
+</head>
+
+<body>
+  <h1>Firebase Authentication Assignment - Juan Tirado</h1>
+        <fieldset id="form1">
+            <h2 id="header1">Authentication</h2>
+                <label>Email:</label>
+                <input id="email" type="email" />
+                
+                <label>Password:</label>
+                <input id="password" type="password" />
+                
+                <button id="sign-up" >Sign Up</button>
+                
+                <button id="sign-in" >Log In</button>
+                
+                <button id="sign-out" >Log Out</button>
+              </fieldset>
+              <h1 id="header"></h1>
+              
+              <div id="list"></div>
+
+              
+
+              <fieldset id="form2">
+                <h2 id="header2">To Do List</h2>
+                <label>Task Name:</label>
+                <input id="name" type="text" />
+                <br />
+                <label for="due">Due Date:</label>
+                <input id="due" type="date" name="due" />
+                <br />
+                <button id="addBtn" >Add to DB</button>
+              </fieldset>
+              
+              
+              <div id="list2"></div>
+
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+              <script src="script.js" ></script>
+
+</body>
+</html>
